@@ -16,7 +16,7 @@ class HelloController() {
    * This controller prints Hello World on the screen.
    * Returns String hello = "Hello, World!"
    */
-  @RequestMapping(Array("/hello"))
+  @RequestMapping(Array("/"))
   def sayHello: String = {
     val hello: String = "Hello, World!";
     return hello
